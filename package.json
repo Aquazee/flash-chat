@@ -1,0 +1,33 @@
+{
+  "name": "flash-chat",
+  "version": "0.1.0",
+  "keywords": ["chat", "socket.io", "node", "next.js"],
+  "author": "aquazee <sudipsharma9@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Aquazee/flash-chat.git"
+  },
+  "license": "ISC",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "react": "^18",
+    "react-dom": "^18",
+    "next": "14.2.4"
+  },
+  "devDependencies": {
+    "typescript": "^5",
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "postcss": "^8",
+    "tailwindcss": "^3.4.1",
+    "eslint": "^8",
+    "eslint-config-next": "14.2.4"
+  }
+}
